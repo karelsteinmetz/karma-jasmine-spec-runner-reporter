@@ -1,4 +1,4 @@
 # karma-jasmine-spec-runner-reporter
 
-* reporter generates Jasmine Html SpecRunner in the root.
+* karma plugin which reports Spec results as Html Jasmine SpecRunner
 * spec-runner-template supports only ES6 with SystemJS

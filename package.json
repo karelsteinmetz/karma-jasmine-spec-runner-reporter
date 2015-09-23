@@ -1,7 +1,7 @@
 {
   "name": "karma-jasmine-spec-runner-reporter",
   "version": "0.0.1",
-  "description": "Karma plugin which reports results as Jasmine SpecRunner.",
+  "description": "Karma plugin which reports Spec results as Html Jasmine SpecRunner.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
