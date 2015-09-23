@@ -1,0 +1,30 @@
+{
+  "name": "karma-jasmine-spec-runner-reporter",
+  "version": "0.1.0",
+  "description": "Karma plugin which reports results as Jasmine SpecRunner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karelsteinmetz/karma-jasmine-spec-runner-reporter.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "jasmine",
+    "es6",
+    "systemjs"
+  ],
+  "author": {
+    "name": "Karel Steinmetz",
+    "email": "karel.steinmetz@gmail.com"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "karma": "*"
+  },
+  "license": "MIT"
+}
