@@ -27,6 +27,7 @@ var JasmineSpecRunnerReporter = function (config, logger, helper) {
     var log = logger.create('reporter.jasmine-spec-runner');
     var outputFile = helper.normalizeWinPath(path.resolve(config.basePath, 'jasmine-spec-runner.html'));
     var specsPattern = path.resolve(config.basePath, './**/*.spec.js');
+    var params = config.jasmineSpecRunnerReporter || { jasmineCoreDir: 'node_modules/jasmine-core/lib/jasmine-core'};
 
     this.adapters = [];
 
@@ -37,7 +38,7 @@ var JasmineSpecRunnerReporter = function (config, logger, helper) {
             relativeSpecs.push(normalizePath(specs[i], config.basePath, helper));
 
         var output = simplet().render(__dirname + '/spec-runner-template.html', {
-            lib: helper.normalizeWinPath(path.relative('', __dirname)),
+            jasmineCore: helper.normalizeWinPath(params.jasmineCoreDir),
             imports: createImportsScript(relativeSpecs)
         });
 
