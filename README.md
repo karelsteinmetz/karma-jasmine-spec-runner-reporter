@@ -29,6 +29,8 @@ var karmaConf = {
  * sets root of jasmine-core which is needed for html report, see: spec-runner-template.html,
  * directory jasmine-core have to be distributed through your build process.
 
+### spec-runner-template.html
+
 ```html
 <!doctype html>
 <html>
