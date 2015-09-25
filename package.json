@@ -22,7 +22,6 @@
     "email": "karel.steinmetz@gmail.com"
   },
   "dependencies": {
-    "jasmine-core": "^2.3.4",
     "simplet": "^0.1.2"
   },
   "peerDependencies": {
