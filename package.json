@@ -22,7 +22,7 @@
     "email": "karel.steinmetz@gmail.com"
   },
   "dependencies": {
-    "simplet": "^0.1.2"
+    "simplet": "0.1.*"
   },
   "peerDependencies": {
     "karma": "*"
